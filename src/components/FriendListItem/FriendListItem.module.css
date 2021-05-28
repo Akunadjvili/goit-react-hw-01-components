@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  height: 115px;
+  padding: 0 16px;
+  margin-right: 20px;
+  background-color: #ffffff;
+  border: 1px solid gainsboro;
+  box-shadow: 4px 4px 5px 0 gainsboro;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.status {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.name {
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
+}

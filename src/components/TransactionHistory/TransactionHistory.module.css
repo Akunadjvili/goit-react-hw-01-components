@@ -1,0 +1,24 @@
+.transaction-history {
+  width: 875px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: capitalize;
+  box-shadow: 4px 4px 5px 0 gainsboro;
+}
+
+.transaction-history > thead {
+  background-color: #02bad6;
+}
+.transaction-history tr {
+  height: 50px;
+}
+.transaction-history > tbody {
+}
+
+.transaction-history > tbody > tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
+.transaction-history > tbody > tr:nth-child(odd) {
+  background-color: #fffdfe;
+}
