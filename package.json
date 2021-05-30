@@ -51,7 +51,7 @@
     "prop-types": "^15.7.2"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "src/**/*.{js,jsx,ts,tsx}": ["prettier --write","eslint --cache --fix"],
+    "src/**/*.{json,css,scss,md}": ["prettier --write"]
   }
 }
