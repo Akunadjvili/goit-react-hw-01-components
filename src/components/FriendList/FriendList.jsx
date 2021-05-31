@@ -22,7 +22,7 @@ const FriendList = ({ friends }) => {
 };
 
 FriendList.defaultProps = {
-  friends:[]
+  friends: [],
 };
 
 FriendList.propTypes = {
@@ -32,7 +32,7 @@ FriendList.propTypes = {
       isOnline: PropTypes.bool.isRequired,
       name: PropTypes.string.isRequired,
       avatar: PropTypes.string,
-    }),
+    }).isRequired,
   ),
 };
 
